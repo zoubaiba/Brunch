@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manzil — Coffee shop & brunch marocain à Marseille</title>
+<meta name="description" content="Brunch marocain généreux et fait maison : baghrir, msemen, avocado toast fleuri et thé à la menthe. Du samedi au jeudi, à Marseille.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="shared/footer.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="/" aria-label="Manzil"><span class="logo">MANZIL</span><span class="brand-name">Manzil</span></a>
+  <nav class="links" aria-label="Navigation">
+    <a href="#carte" data-i18n="nav1"></a>
+    <a href="#comptoir" data-i18n="nav2"></a>
+    <a href="#adresse" data-i18n="nav3"></a>
+  </nav>
+  <div class="right">
+    <div class="lang" role="group" aria-label="Langue / Language">
+      <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="visit" href="#adresse"><span data-i18n="visit"></span> ↗</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-text">
+      <p class="badge"><i></i><span data-i18n="badge"></span></p>
+      <h1 data-i18n="h1"></h1>
+      <p class="lead" data-i18n="lead"></p>
+    </div>
+    <div class="hero-media">
+      <img src="img/baghrir.jpg" width="800" height="1000" alt="" data-i18n-alt="alt1">
+      <a class="hero-cta" href="carte/index.html"><span data-i18n="cta"></span><span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true"><div class="track" id="track"></div></div>
+
+  <section id="carte" class="menu" aria-labelledby="menu-t">
+    <h2 id="menu-t" class="sr" data-i18n="nav1"></h2>
+    <div class="cols" id="menu"></div>
+    <p class="menu-more"><a class="btn" href="carte/index.html"><span data-i18n="cta"></span> →</a></p>
+  </section>
+
+  <section id="comptoir" class="gallery" aria-label="Le comptoir">
+    <div class="cards" id="cards"></div>
+  </section>
+</main>
+
+<footer id="adresse"></footer>
+
+<script src="shared/menu-data.js"></script>
+<script src="shared/footer.js"></script>
+<script src="home.js"></script>
+</body>
+</html>

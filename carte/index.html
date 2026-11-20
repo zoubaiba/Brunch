@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brunch menu — Manzil</title>
+<meta name="description" content="Le brunch menu de Manzil : formules, salés, sucrés, à la carte et boissons.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="carte.css">
+<link rel="stylesheet" href="../shared/footer.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html" aria-label="Manzil"><span class="logo">MANZIL</span><span class="brand-name">Manzil</span></a>
+  <div class="lang" role="group" aria-label="Langue / Language">
+    <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+    <button type="button" data-lang="en" aria-pressed="false">EN</button>
+  </div>
+</header>
+
+<main>
+  <section class="intro">
+    <h1>Brunch menu</h1>
+    <p data-i18n="hint"></p>
+  </section>
+  <nav class="tabs" id="tabs" role="tablist"></nav>
+  <div id="panel" role="tabpanel"></div>
+  <div class="notes">
+    <p><b data-i18n="allergTitle"></b> <span data-i18n="allerg"></span></p>
+    <p data-i18n="note"></p>
+  </div>
+</main>
+
+<dialog id="dlg" aria-labelledby="dlg-t">
+  <button type="button" class="x" id="dlg-close">×</button>
+  <img id="dlg-img" alt="">
+  <div id="dlg-no" hidden></div>
+  <div class="dlg-body">
+    <div class="row"><h2 id="dlg-t"></h2><span class="price" id="dlg-p"></span></div>
+    <p id="dlg-d"></p>
+  </div>
+</dialog>
+
+<footer id="adresse"></footer>
+
+<script src="../shared/menu-data.js"></script>
+<script src="../shared/footer.js"></script>
+<script src="carte.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.sf{background:#2a160c;color:#f4ebe0;margin-top:56px;padding:48px 20px 40px;font:400 15px/1.6 "DM Sans",system-ui,sans-serif}
+.sf-in{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:32px 40px}
+.sf h2{font:700 .78rem/1.4 "DM Sans",system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#e0a07f;margin:0 0 10px}
+.sf p{margin:0 0 14px}
+.sf a{color:inherit}
+.sf-tel{font:800 1.5rem/1.2 "Fraunces",Georgia,serif;text-decoration:none}
+.sf-tel:hover,.sf-soc a:hover{color:#e0a07f}
+.sf-btn{display:inline-block;padding:11px 18px;background:#b5603f;color:#f4ebe0!important;text-decoration:none;font-weight:700;font-size:.9rem}
+.sf-btn:hover{background:#9c4f31}
+.sf-btn.ghost{background:transparent;border:1px solid #f4ebe0}
+.sf-btn.ghost:hover{background:#f4ebe0;color:#2a160c!important}
+.sf-soc{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.sf-soc a{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-weight:700}
+.sf a:focus-visible{outline:2px solid #e0a07f;outline-offset:3px}
+@media (max-width:900px){.sf-in{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.sf-in{grid-template-columns:1fr}}

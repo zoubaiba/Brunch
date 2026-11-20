@@ -1,0 +1,56 @@
+Photos des plats : un fichier JPG par plat, nom exact ci-dessous (format paysage 4:3, ~1200x900 px, < 200 Ko).
+Si le fichier est absent, la fiche du plat affiche "Photo bientot disponible".
+
+== Formules ==
+img/plats/primo.jpg   (Primo)
+img/plats/manzil.jpg   (Manzil)
+img/plats/healthy.jpg   (Healthy)
+img/plats/orient.jpg   (Orient)
+img/plats/duo.jpg   (Duo)
+
+== Salés ==
+img/plats/avocado-toast.jpg   (Avocado toast)
+img/plats/msemen-garni.jpg   (Msemen garni)
+img/plats/soupe-brick.jpg   (Soupe & brick)
+img/plats/le-club.jpg   (Le Club)
+img/plats/msemen-beef.jpg   (Msemen beef)
+img/plats/manzil-addict.jpg   (Manzil addict)
+
+== Sucrés ==
+img/plats/trio-pancakes.jpg   (Trio de pancakes)
+img/plats/tiramisu-maison.jpg   (Tiramisu maison)
+img/plats/baghrir-gourmand.jpg   (Baghrir gourmand)
+img/plats/msemen-gourmand.jpg   (Msemen gourmand)
+img/plats/le-bowl.jpg   (Le bowl)
+img/plats/baklava-bowl.jpg   (Baklava bowl)
+
+== À la carte ==
+img/plats/assortiment-nature.jpg   (Assortiment nature)
+img/plats/assortiment-fromage.jpg   (Assortiment fromage)
+img/plats/soupe.jpg   (Soupe)
+img/plats/brick.jpg   (Brick)
+img/plats/supplements.jpg   (Suppléments)
+
+== Boissons ==
+img/plats/expresso.jpg   (Expresso)
+img/plats/the-menthe.jpg   (Thé à la menthe)
+img/plats/americano.jpg   (Americano)
+img/plats/latte.jpg   (Latte)
+img/plats/cappuccino.jpg   (Cappuccino)
+img/plats/chocolat-chaud.jpg   (Chocolat chaud)
+img/plats/double-expresso.jpg   (Double expresso)
+img/plats/selecto.jpg   (Selecto)
+img/plats/hamoud.jpg   (Hamoud)
+img/plats/cristalline.jpg   (Cristalline)
+img/plats/orange-presse.jpg   (Orange pressé)
+img/plats/manzil-jus.jpg   (Manzil)
+img/plats/duo-fruite.jpg   (Duo fruité)
+img/plats/detox.jpg   (Détox)
+img/plats/tropical.jpg   (Tropical)
+img/plats/mangue-ananas.jpg   (Mangue ananas fusion)
+img/plats/iced-latte.jpg   (Iced latte)
+img/plats/spanish-latte.jpg   (Spanish latte)
+img/plats/the-glace-peche.jpg   (Thé glacé pêche)
+img/plats/the-glace-rose.jpg   (Thé glacé à la rose)
+img/plats/the-glace-hibiscus.jpg   (Thé glacé à l'hibiscus)
+
